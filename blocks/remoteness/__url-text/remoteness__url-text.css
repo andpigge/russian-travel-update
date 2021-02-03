@@ -1,0 +1,13 @@
+.remoteness__url-text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  margin-top: 12px;
+  transition: opacity .2s ease;
+}
+
+.remoteness__url-text:hover {
+  opacity: .4;
+}

@@ -1,0 +1,13 @@
+.orientation__bg {
+  position: absolute;
+  top: 14.6%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 937px;
+  background-image: url(../../../images/icons/orientation-route.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 26.72%;
+  background-position: center;
+}

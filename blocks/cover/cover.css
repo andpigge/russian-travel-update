@@ -1,0 +1,51 @@
+.cover {
+  /* Гибкий блок фона. Высота высчитана от ширины родителя.
+  Можно было сделать с помощью min-height. Но сейчас у меня гибкий фон, что довольно круто. */
+  position: relative;
+  width: 100%;
+  max-width: 1184px;
+  min-width: 320px;
+  background-image: url(../../images/cover-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 19.2%;
+  padding-top: 19.2%;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding-bottom: 19.1%;
+    padding-top: 19.1%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding-bottom: 15%;
+    padding-top: 15%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    padding-bottom: 10.5%;
+    padding-top: 10.5%;
+  }
+}
+
+.cover::before {
+  /* Отсуствует высота у блока cover, поэтому это решение самое логичное и правильное */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42,44,47,.3);
+  transition: background-color .4s linear;
+}
+
+.cover:hover::before {
+  background-color: rgba(42,44,47,.8);
+}

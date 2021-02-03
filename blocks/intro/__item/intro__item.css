@@ -1,0 +1,12 @@
+.intro__item {
+  font-family: Inter;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 12px;
+  letter-spacing: .2px;
+}
+
+.intro__item:last-of-type {
+  margin-bottom: 0;
+}

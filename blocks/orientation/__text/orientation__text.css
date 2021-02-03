@@ -1,0 +1,22 @@
+.orientation__text {
+  margin: 0;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: white;
+  font-family: Inter;
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .orientation__text {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .orientation__text {
+    margin-left: 16px;
+  }
+}

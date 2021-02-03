@@ -1,0 +1,74 @@
+@import url(../vendor/normalize.css);
+/* normalize */
+@import url(../vendor/fonts.css);
+/* fonts */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__margin-auto/page__margin-auto.css);
+@import url(../blocks/page/__margin-bottom/page__margin-bottom.css);
+/* page */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_margin/header_margin_bottom.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__link-logo/header__link-logo.css);
+@import url(../blocks/header/__logo/header__logo.css);
+/* header */
+@import url(../blocks/main/main.css);
+/* main */
+@import url(../blocks/orientation/orientation.css);
+@import url(../blocks/orientation/__title/orientation__title.css);
+@import url(../blocks/orientation/__subtitle/orientation__subtitle.css);
+@import url(../blocks/orientation/__route/orientation__route.css);
+@import url(../blocks/orientation/__img/orientation__img.css);
+@import url(../blocks/orientation/__bg/orientation__bg.css);
+@import url(../blocks/orientation/__link/orientation__link.css);
+@import url(../blocks/orientation/__circle/orientation__circle.css);
+/* position circle start */
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_glazov.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_kotelnich.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_krasnoyarsk.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_manturovo.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_novgorod.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_omsk.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_permian.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_pskhov.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_tver.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_tyumen.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_ulan-ude.css);
+@import url(../blocks/orientation/__circle/_position/orientation__circle_position_yaroslavl.css);
+/* position circle end */
+@import url(../blocks/orientation/__text/orientation__text.css);
+/* orientation */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__desc/intro__desc.css);
+@import url(../blocks/intro/__item/intro__item.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__title/intro__title.css);
+/* intro */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item-container/gallery__item-container.css);
+@import url(../blocks/gallery/__item-overlay/gallery__item-overlay.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+/* gallery */
+@import url(../blocks/remoteness/remoteness.css);
+@import url(../blocks/remoteness/__card/remoteness__card.css);
+@import url(../blocks/remoteness/__cards/remoteness__cards.css);
+@import url(../blocks/remoteness/__desc-text/remoteness__desc-text.css);
+@import url(../blocks/remoteness/__desc/remoteness__desc.css);
+@import url(../blocks/remoteness/__img/remoteness__img.css);
+@import url(../blocks/remoteness/__title/remoteness__title.css);
+@import url(../blocks/remoteness/__url-text/remoteness__url-text.css);
+@import url(../blocks/remoteness/__url/remoteness__url.css);
+/* remoteness */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
+/* cover */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/_margin/footer_margin_bottom.css);
+/* footer */

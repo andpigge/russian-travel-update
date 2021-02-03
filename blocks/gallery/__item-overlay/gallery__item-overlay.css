@@ -1,0 +1,25 @@
+.gallery__item-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .4);
+  transform: translateX(-100%);
+  transition: all .2s ease;
+  font-size: 24px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__item-overlay {
+    clip: rect(0 0 0 0);
+  }
+}
+
+.gallery__item-container:hover .gallery__item-overlay {
+  transform: translateX(0);
+}

@@ -1,0 +1,14 @@
+.orientation {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1080px;
+  min-width: 320px;
+  padding: 0 48px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .orientation {
+    padding: 0;
+  }
+}

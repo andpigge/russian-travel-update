@@ -1,0 +1,36 @@
+@keyframes circle {
+  0% {
+    transform: scale(1.2);
+  }
+  30%, 60% {
+    transform: scale(.8);
+    opacity: 1;
+  }
+  90%, 100% {
+    transform: scale(2.4);
+    opacity: 0;
+    box-shadow: none;
+  }
+}
+
+.orientation__circle {
+  position: absolute;
+  width: 2%;
+  height: 3.5%;
+  border-radius: 50%;
+  background-color: crimson;
+  opacity: 0;
+  transition: opacity .5s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .orientation__circle {
+    clip: rect(0 0 0 0);
+  }
+}
+
+.orientation__circle:hover {
+  opacity: 1;
+  animation: 1.8s circle ease-out 1;
+  transform: scale(.8);
+}

@@ -1,0 +1,19 @@
+.intro {
+  width: 100%;
+  max-width: 1080px;
+  min-width: 288px;
+  padding: 0 48px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 0 16px;
+  }
+}

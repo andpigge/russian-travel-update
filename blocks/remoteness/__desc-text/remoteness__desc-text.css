@@ -1,0 +1,27 @@
+.remoteness__desc-text {
+  margin: 0;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: white;
+  margin-bottom: 26px;
+}
+
+.remoteness__desc-text:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .remoteness__desc-text {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .remoteness__desc-text {
+    margin: 0 16px;
+  }
+}

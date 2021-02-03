@@ -1,0 +1,27 @@
+.header__lang {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  margin-right: 18px;
+  transition: border .2s linear;
+  border-bottom: 3px solid transparent;
+  line-height: 28px;
+  /* Можно было заморочиться и с помощью псевдоклассов сделать линию плавнее */
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.header__lang:last-of-type {
+  margin-right: 0;
+}
+
+.header__lang:hover {
+  border-bottom: 3px solid white;
+}
