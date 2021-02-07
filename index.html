@@ -7,21 +7,23 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
-  <header class="header header_margin_bottom">
-    <a href="#" target="_self" class="header__link-logo">
+  <header class="header page__margin-auto page__margin-header-bottom">
+    <a href="#" target="_self" class="header__link">
       <img src="./images/icons/header-logo.svg" alt="Логотип Россия" class="header__logo">
     </a>
     <!-- /.header__link -->
-    <a href="#" target="_self" class="header__lang">
-      Ru
-    </a>
-    <a href="#" target="_self" class="header__lang">
-      En
-    </a>
+    <ul class="header__list-lang">
+      <li class="header__item-lang">
+        <a href="#" target="_self" class="header__link-lang header__link-lang_included">Ru</a>
+      </li>
+      <li class="header__item-lang">
+        <a href="#" target="_self" class="header__link-lang">En</a>
+      </li>
+    </ul>
   </header>
   <!-- /.header -->
   <main class="main">
-    <section class="orientation page__margin-auto page__margin-bottom">
+    <section class="orientation page__margin-auto page__margin-section-bottom">
       <h1 class="orientation__title">
         Путешествия по России
       </h1>
@@ -73,7 +75,7 @@
       </p>
     </section>
     <!-- /.orientation -->
-    <section class="intro page__margin-auto page__margin-bottom">
+    <section class="intro page__margin-auto page__margin-section-bottom">
       <h2 class="intro__title">
         Чего мы там не видели?
       </h2>
@@ -100,7 +102,7 @@
       </ul>
     </section>
     <!-- /.intro -->
-    <section class="gallery page__margin-auto page__margin-bottom">
+    <section class="gallery page__margin-auto page__margin-section-bottom">
       <div class="gallery__item-container">
         <img src="./images/gallery/gallery-1.jpg" alt="За окном" class="gallery__item">
         <div class="gallery__item-overlay">Поезд</div>
@@ -174,128 +176,152 @@
       <!-- /.gallery__item-container -->
     </section>
     <!-- /.gallery -->
-    <section class="remoteness page__margin-auto page__margin-bottom">
+    <section class="remoteness page__margin-auto page__margin-section-bottom">
       <ul class="remoteness__cards">
-        <li class="remoteness__card">
-          <h2 class="remoteness__title">
-            Куршская коса
-          </h2>
-          <div class="remoteness__url">
-            URL
-            <a href="http://park-kosa.ru" target="_blank" class="remoteness__url-text">
-              park-kosa.ru
-            </a>
-          </div>
-          <img src="./images/remoteness-curonian-spit.jpg" class="remoteness__img" alt="Море с корягами">
-          <div class="remoteness__desc">
-            <p class="remoteness__desc-text">
-              Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.
+        <li class="remoteness__card-item">
+          <div class="card-remotenes">
+            <h2 class="card-remotenes__title">
+              Куршская коса
+            </h2>
+            <p class="card-remotenes__url">
+              URL
+              <a href="http://park-kosa.ru" target="_blank" class="card-remotenes__url-text">
+                park-kosa.ru
+              </a>
             </p>
-            <p class="remoteness__desc-text">
-              На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
-            </p>
+            <img src="./images/remoteness-curonian-spit.jpg" class="card-remotenes__img" alt="Море с корягами">
+            <div class="card-remotenes__desc">
+              <p class="card-remotenes__desc-text">
+                Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.
+              </p>
+              <p class="card-remotenes__desc-text">
+                На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
+              </p>
+            </div>
+            <!-- /.card-remotenes__desc -->
           </div>
+          <!-- /.card-remotenes -->
         </li>
         <!-- /.remoteness__card -->
-        <li class="remoteness__card">
-          <h2 class="remoteness__title">
-            Кольский
-          </h2>
-          <div class="remoteness__url">
-            URL
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="remoteness__url-text">
-              National Geographic
-            </a>
-          </div>
-          <img src="./images/remoteness-кola.jpg" class="remoteness__img" alt="Море с корягами">
-          <div class="remoteness__desc">
-            <p class="remoteness__desc-text">
-              Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
+        <li class="remoteness__card-item">
+          <div class="card-remotenes">
+            <h2 class="card-remotenes__title">
+              Кольский
+            </h2>
+            <p class="card-remotenes__url">
+              URL
+              <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="card-remotenes__url-text" target="_blank">
+                National Geographic
+              </a>
             </p>
-            <p class="remoteness__desc-text">
-              Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
-            </p>
+            <img src="./images/remoteness-кola.jpg" class="card-remotenes__img" alt="Море с корягами">
+            <div class="card-remotenes__desc">
+              <p class="card-remotenes__desc-text">
+                Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
+              </p>
+              <p class="card-remotenes__desc-text">
+                Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
+              </p>
+            </div>
+            <!-- /.card-remotenes__desc -->
           </div>
+          <!-- /.card-remotenes -->
         </li>
         <!-- /.remoteness__card -->
-        <li class="remoteness__card">
-          <h2 class="remoteness__title">
-            Алтай
-          </h2>
-          <div class="remoteness__url">
-            URL
-            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="remoteness__url-text">
-              Facebook
-            </a>
-          </div>
-          <img src="./images/remoteness-altai.jpg" class="remoteness__img" alt="Море с корягами">
-          <div class="remoteness__desc">
-            <p class="remoteness__desc-text">
-              Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.
+        <li class="remoteness__card-item">
+          <div class="card-remotenes">
+            <h2 class="card-remotenes__title">
+              Алтай
+            </h2>
+            <p class="card-remotenes__url">
+              URL
+              <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="card-remotenes__url-text" target="_blank">
+                Facebook
+              </a>
             </p>
-            <p class="remoteness__desc-text">
-              Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
-            </p>
+            <img src="./images/remoteness-altai.jpg" class="card-remotenes__img" alt="Море с корягами">
+            <div class="card-remotenes__desc">
+              <p class="card-remotenes__desc-text">
+                Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.
+              </p>
+              <p class="card-remotenes__desc-text">
+                Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
+              </p>
+            </div>
+            <!-- /.card-remotenes__desc -->
           </div>
+          <!-- /.card-remotenes -->
         </li>
         <!-- /.remoteness__card -->
-        <li class="remoteness__card">
-          <h2 class="remoteness__title">
-            Зимний Байкал
-          </h2>
-          <div class="remoteness__url">
-            URL
-            <a href="https://vk.com/baikalmile/" target="_blank" class="remoteness__url-text">
-              https://vk.com/baikalmile
-            </a>
-          </div>
-          <img src="./images/remoteness-winter-baikal.jpg" class="remoteness__img" alt="Море с корягами">
-          <div class="remoteness__desc">
-            <p class="remoteness__desc-text">
-              Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
+        <li class="remoteness__card-item">
+          <div class="card-remotenes">
+            <h2 class="card-remotenes__title">
+              Зимний Байкал
+            </h2>
+            <p class="card-remotenes__url">
+              URL
+              <a href="https://vk.com/baikalmile/" class="card-remotenes__url-text" target="_blank">
+                https://vk.com/baikalmile
+              </a>
             </p>
-            <p class="remoteness__desc-text">
-              Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
-            </p>
+            <img src="./images/remoteness-winter-baikal.jpg" class="card-remotenes__img" alt="Море с корягами">
+            <div class="card-remotenes__desc">
+              <p class="card-remotenes__desc-text">
+                Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
+              </p>
+              <p class="card-remotenes__desc-text">
+                Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
+              </p>
+            </div>
+            <!-- /.card-remotenes__desc -->
           </div>
+          <!-- /.card-remotenes -->
         </li>
         <!-- /.remoteness__card -->
-        <li class="remoteness__card">
-          <h2 class="remoteness__title">
-            Карелия
-          </h2>
-          <div class="remoteness__url">
-            URL
-            <a href="http://vodlozero.ru" target="_blank" class="remoteness__url-text">
-              http://vodlozero.ru/
-            </a>
-          </div>
-          <img src="./images/remoteness-кarelia.jpg" class="remoteness__img" alt="Море с корягами">
-          <div class="remoteness__desc">
-            <p class="remoteness__desc-text">
-              Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
+        <li class="remoteness__card-item">
+          <div class="card-remotenes">
+            <h2 class="card-remotenes__title">
+              Карелия
+            </h2>
+            <p class="card-remotenes__url">
+              URL
+              <a href="http://vodlozero.ru" target="_blank" class="card-remotenes__url-text">
+                http://vodlozero.ru/
+              </a>
             </p>
+            <img src="./images/remoteness-кarelia.jpg" class="card-remotenes__img" alt="Море с корягами">
+            <div class="card-remotenes__desc">
+              <p class="card-remotenes__desc-text">
+                Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
+              </p>
+            </div>
+            <!-- /.card-remotenes__desc -->
           </div>
+          <!-- /.card-remotenes -->
         </li>
         <!-- /.remoteness__card -->
       </ul>
       <!-- /.remoteness__cards -->
     </section>
     <!-- /.remoteness -->
-    <section class="cover page__margin-auto page__margin-bottom">
+    <section class="cover page__margin-auto page__margin-section-bottom">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
-        <h2 class="cover__title">
-          До Байкала «на собаках»
-        </h2>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-        </p>
+        <div class="cover__bg">
+          <h2 class="cover__title">
+            До Байкала «на собаках»
+          </h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+          </p>
+        </div>
+        <!-- /.cover__bg -->
       </a>
+      <!-- /.cover__link -->
     </section>
     <!-- /.cover -->
   </main>
   <!-- /.main -->
-  <footer class="footer page__margin-auto footer_margin_bottom">
+  <footer class="footer page__margin-auto page__margin-footer-bottom">
     <nav class="footer__menu">
       <ul class="footer__list">
         <li class="footer__item">

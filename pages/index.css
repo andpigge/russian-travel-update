@@ -4,13 +4,17 @@
 /* fonts */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__margin-auto/page__margin-auto.css);
-@import url(../blocks/page/__margin-bottom/page__margin-bottom.css);
+@import url(../blocks/page/__margin-section-bottom/page__margin-section-bottom.css);
+@import url(../blocks/page/__margin-header-bottom/page__margin-header-bottom.css);
+@import url(../blocks/page/__margin-footer-bottom/page__margin-footer-bottom.css);
 /* page */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/_margin/header_margin_bottom.css);
-@import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/header/__link-logo/header__link-logo.css);
+@import url(../blocks/header/__link-lang/header__link-lang.css);
+@import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__list-lang/header__list-lang.css);
+@import url(../blocks/header/__item-lang/header__item-lang.css);
+@import url(../blocks/header/__link-lang/_included/header__link-lang_included.css);
 /* header */
 @import url(../blocks/main/main.css);
 /* main */
@@ -51,6 +55,7 @@
 @import url(../blocks/gallery/__item/gallery__item.css);
 /* gallery */
 @import url(../blocks/remoteness/remoteness.css);
+@import url(../blocks/remoteness/__card-item/remoteness__card-item.css);
 @import url(../blocks/remoteness/__card/remoteness__card.css);
 @import url(../blocks/remoteness/__cards/remoteness__cards.css);
 @import url(../blocks/remoteness/__desc-text/remoteness__desc-text.css);
@@ -60,10 +65,19 @@
 @import url(../blocks/remoteness/__url-text/remoteness__url-text.css);
 @import url(../blocks/remoteness/__url/remoteness__url.css);
 /* remoteness */
+@import url(../blocks/card-remotenes/card-remotenes.css);
+@import url(../blocks/card-remotenes/__title/card-remotenes__title.css);
+@import url(../blocks/card-remotenes/__url/card-remotenes__url.css);
+@import url(../blocks/card-remotenes/__url-text/card-remotenes__url-text.css);
+@import url(../blocks/card-remotenes/__img/card-remotenes__img.css);
+@import url(../blocks/card-remotenes/__desc/card-remotenes__desc.css);
+@import url(../blocks/card-remotenes/__desc-text/card-remotenes__desc-text.css);
+/* card-remotenes */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__bg/cover__bg.css);
 /* cover */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
@@ -71,5 +85,4 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
-@import url(../blocks/footer/_margin/footer_margin_bottom.css);
 /* footer */

@@ -41,3 +41,8 @@
     transform: none;
   }
 }
+
+.gallery__item-container:hover .gallery__item-overlay {
+  transform: translateX(0);
+  clip: auto;
+}

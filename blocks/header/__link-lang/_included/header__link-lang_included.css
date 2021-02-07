@@ -1,0 +1,4 @@
+.header__link-lang_included {
+  transition: border .2s linear;
+  border-bottom: 3px solid white;
+}

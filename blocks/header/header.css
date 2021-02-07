@@ -1,12 +1,10 @@
 .header {
   display: flex;
   align-items: flex-end;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 100%;
   max-width: 1280px;
   min-width: 288px;
-  min-height: 52px;
-  margin: 0 auto;
   background-color: transparent;
   padding: 28px 48px 0 48px;
   box-sizing: border-box;

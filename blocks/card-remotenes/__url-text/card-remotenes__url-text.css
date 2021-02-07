@@ -1,0 +1,15 @@
+.card-remotenes__url-text {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  margin-top: 12px;
+  transition: opacity .2s ease;
+  text-transform: lowercase;
+  letter-spacing: 0;
+}
+
+.card-remotenes__url-text:hover {
+  opacity: .8;
+}
