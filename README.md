@@ -22,4 +22,4 @@ __Сайт поддерживает все современные браузер
 
 ------
 
-Ссылка на проект: [Путешествие по России](https://andpigge.github.io/russian-travel/)
+Ссылка на проект: [Путешествие по России](https://andpigge.github.io/russian-travel-update/)
